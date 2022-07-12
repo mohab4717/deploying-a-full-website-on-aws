@@ -22,6 +22,8 @@ jobs:
     - run:
        name: Build back-end
        command:  
+          npm install
+          npm run build 
 workflows:
   myworkflow:
     jobs:
